@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "crypto_doges",
+  "info": {
+    "name": "Crypto Doge",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "Doge_ID": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "asset": {
+      "type": "string"
+    }
+  }
+}
